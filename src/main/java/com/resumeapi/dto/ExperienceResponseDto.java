@@ -1,9 +1,17 @@
 package com.resumeapi.dto;
 
 
+import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Data;
 
 import java.time.LocalDate;
+
+@Schema(
+        name = "Experience",
+        description = "it holds experience response information"
+)
+
+
 
 @Data
 public class ExperienceResponseDto {

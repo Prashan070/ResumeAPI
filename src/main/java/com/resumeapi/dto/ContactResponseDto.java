@@ -1,9 +1,17 @@
 package com.resumeapi.dto;
 
 
+import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Data;
 
 import java.util.List;
+
+@Schema(
+        name = "Contact",
+        description = "it holds contact response information"
+)
+
+
 
 @Data
 public class ContactResponseDto {

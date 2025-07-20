@@ -1,6 +1,12 @@
 package com.resumeapi.dto;
 
+import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Data;
+
+@Schema(
+        name = "Message",
+        description = "it holds message request information"
+)
 
 @Data
 public class MessageRequestDto {

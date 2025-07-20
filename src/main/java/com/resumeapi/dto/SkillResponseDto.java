@@ -1,9 +1,15 @@
 package com.resumeapi.dto;
 
 import com.resumeapi.entity.SkillLevel;
+import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+
+@Schema(
+        name = "Skill",
+        description = "it holds skill response information"
+)
 
 @Data
 @AllArgsConstructor

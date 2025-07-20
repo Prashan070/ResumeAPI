@@ -1,9 +1,7 @@
 package com.resumeapi.Mapper;
 
 import com.resumeapi.dto.ContactResponseDto;
-import com.resumeapi.dto.SkillResponseDto;
 import com.resumeapi.entity.Contact;
-import com.resumeapi.entity.Skill;
 
 public class ContactEntityToResponse {
 
